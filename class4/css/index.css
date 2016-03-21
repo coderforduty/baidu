@@ -1,0 +1,52 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+/*设置最外层容器的高为100%*/
+html, body {
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+/*外层部分*/
+#container {
+	width: 400px;
+	background: #ccc;
+	height: 200px;
+	position: relative;
+	overflow: hidden;
+}
+
+/*圆角部分*/
+#container #left-top {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100px;
+	height: 100px;
+	margin-top: -50px;
+	margin-left: -50px;
+	background: #fc0;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+}
+
+#container #right-bottom {
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+	width: 100px;
+	height: 100px;
+	margin-right: -50px;
+	margin-bottom: -50px;
+	background: #fc0;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+}
