@@ -8,12 +8,14 @@ body {
 	padding: 20px;
 }
 
+/*外层容器部分*/
 #container {
 	padding: 20px;
 	background: #eee;
 	border: 1px solid #999;
 	position: relative;
 }
+
 
 #container #team {
 	width: 200px;
@@ -35,10 +37,9 @@ body {
 
 #container #team_desc {
 	padding: 20px;
-	position: absolute;
 	border: 1px solid #999;
-	left: 282px;
-	margin-right: 162px;
+	margin-left: 262px;
+	margin-right: 142px;
 }
 
 #container #person {
